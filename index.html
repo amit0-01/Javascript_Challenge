@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Chemical Supplies</h1>
+            <div class="images">
+                <img id="add-image" src="../images/add.png" alt="add" width="26px">
+                <img id="down-arrow-image" src="../images/down-arrow.png" alt="down-arrow" width="26px">
+                <img id="up-arrow-image" src="../images/up-arrow.png" alt="up-arrow" width="26px">
+                <img id="delete-image" src="../images/delete-button.svg" alt="delete" width="26px">
+                <img id="load-image" src="../images/load.png" alt="load" width="26px">
+                <img id="save-image" src="../images/save.png" alt="save" width="26px">
+            </div>
+        </div>
+        
+        <!-- Add table-responsive div here -->
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th><img src="../images/tick.svg" alt="" width="26px"></th>
+                        <th id="chemical-name-header">Chemical Name</th>
+                        <th id="vendor-header">Vendor</th>
+                        <th id="density-header">Density</th>
+                        <th id="viscosity-header">Viscosity</th>
+                        <th id="packaging-header">Packaging</th>
+                        <th id="pack-size-header">Pack Size</th>
+                        <th id="unit-header">Unit</th>
+                        <th id="quantity-header">Quantity</th>
+                        <th id="edit">Edit</th>
+                    </tr>
+                </thead>
+                <tbody id="chemical-table-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
